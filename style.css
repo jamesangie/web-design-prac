@@ -1,0 +1,242 @@
+/* The general style starts here */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.space {
+    padding: 4rem 5rem;
+}
+
+
+
+
+
+/* the header style starts here */
+.header {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.315), rgba(0, 0, 0, 0.342)), url(https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2017/08/Playas-del-Coco-www.istockphoto.comgbphotoplayas-del-coco-guanacaste-costa-rica-at-dusk-gm477054068-66951325-Fertnig.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+/* the navigation starts here */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    transition: font-size .5s;
+    padding: 0.5rem;
+}
+
+.item:hover {
+    border: 1px solid #fff;
+
+}
+/* the navigation ends here */
+
+.header-box {
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.253);
+    width: 30%;
+
+    text-align: center;
+    padding: 1.5rem 1.2rem;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.719);
+}
+
+.header-title {
+    font-size: 3rem;
+    color: white;
+}
+
+.header-desc {
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+}
+
+.header-link {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678), rgba(255, 0, 0, 0.589));
+    border-radius: 100px;
+    padding: 1rem 1.2rem;
+    color: white;
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    transition: all 1s;
+}
+
+.header-link:hover {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.418), rgba(0, 0, 0, 0.473));
+}
+
+/* the header ends here */
+
+
+
+.about-content {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 2rem 3rem;
+    width: 45%;
+    box-shadow: 3px 3px 6px #555;
+    background-color: rgba(245, 241, 241, 0.973);
+    border-radius: 5px;
+}
+
+/* the service starts here */
+
+.services {
+    display: flex;
+    justify-content: center;
+}
+
+.service {
+    padding: 0 1.4rem;
+    text-align: center;
+    margin: 0 3rem;
+    width: 25%;
+    box-shadow: 3px 3px 6px rgba(85, 85, 85, 0.418);
+    transition: all 0.5s;
+}
+
+.service:hover {
+    background-color: black;
+    color: white;
+}
+
+.service__text {
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+/* the services end here */
+
+/* the projects start here */
+
+.projects {
+    background-image: url(https://www.trafalgar.com/real-word/wp-content/uploads/sites/3/2017/08/Playas-del-Coco-www.istockphoto.comgbphotoplayas-del-coco-guanacaste-costa-rica-at-dusk-gm477054068-66951325-Fertnig.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    justify-content: center;
+}
+
+.projects-lists {
+    padding: 4rem 6rem;
+    display: flex;
+}
+
+.projects-title {
+    text-align: center;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+    font-size: 3rem;
+    color: rgba(119, 119, 119, 0.801);
+}
+
+.project {
+    background-color: rgba(255, 255, 255, 0.623);
+    margin: 1rem 2rem;
+    padding: 2rem 1.2rem;
+    width: 25%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(85, 85, 85, 0.445);
+}
+
+.project__desc {
+    line-height: 1.4;
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.slogo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+}
+
+/* the projects end here */
+
+/* the users start here */
+
+.users {
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    width: 18%;
+    text-align: center;
+    margin: 0 1.2rem;
+    padding: 1rem 1.5rem;
+    box-shadow: 2px 2px 5px rgba(85, 85, 85, 0.445);
+}
+
+.user__desc {
+    margin-bottom: 1.9rem;
+    color: rgba(85, 85, 85, 0.918);
+}
+
+
+.user__link {
+    text-decoration: none;
+    color: rgba(78, 75, 231, 0.61);
+    border: 1px solid #555;
+    border-radius: 0.5rem;
+    padding: 0.6rem 1rem;
+    transition: 0.5s;
+}
+
+.user__link:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* the users end here */
+
+/* the footer starts here */
+
+
+.footer {
+    background-color: #777;
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+}
+
+
+
