@@ -117,6 +117,8 @@ body {
 
 .skill-img {
     width: 100%;
+    box-shadow: 2px 2px 2px #555;
+    
 }
 
 .skill-right {
@@ -127,6 +129,10 @@ body {
     font-size: 2rem;
     margin: 0em;
     color: #555;
+}
+
+.skill-text {
+    line-height: 1.5;
 }
 
 /* Skills end here */
